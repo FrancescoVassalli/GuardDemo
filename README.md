@@ -16,6 +16,7 @@ This repository takes all comments from [jippity.pro] (mock data provided) and c
 ### Results 
 
 There are 919 comments 10 unsafe comments
+````
 For example:                                               content  ...        guard
 2    hi\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n...  ...  unsafe\nS10
 114  i think you stol john doe project original hit, ...  ...   unsafe\nS8
@@ -27,6 +28,8 @@ For example:                                               content  ...        g
 626  Form this game and continue developing it your...  ...   unsafe\nS8
 825  plese send me images of you john doe ocs that you...  ...   unsafe\nS8
 [10 rows x 4 columns]
+````
+````
 For example:                                             content  ...        guard
 0                                                  🔥  ...         safe
 1  wow\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\...  ...         safe
@@ -38,7 +41,7 @@ For example:                                             content  ...        gua
 7                                          jkgfj\r\n  ...         safe
 8                                                Wha  ...         safe
 9                                                  🔥  ...         safe
-
+````
 User with the most unsafe comments: 6750079233422147965
 No project had more than one unsafe comment
 
