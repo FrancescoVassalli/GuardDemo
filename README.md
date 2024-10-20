@@ -3,6 +3,7 @@
 
 ### Setting up 
 1. Built on windows should work on all platforms with docker
+1. Add a .env with your GROQ_API_KEY
 1. `docker compose up` 
 1. Read the output 
 
