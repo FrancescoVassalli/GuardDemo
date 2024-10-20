@@ -1,0 +1,30 @@
+
+.vscode
+
+# Backend
+__pycache__
+*.sqlite3
+*.db
+*.bin
+.env
+.venv
+prod/*
+guarded.*csv
+topguarded*
+
+# Frontend
+.DS_Store
+node_modules
+build/
+.vercel/
+.svelte-kit
+@@ -7,4 +18,4 @@ node_modules
+.env.*
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+vite.config.ts.timestamp-*
+frontend/.svelte-kit
+
+.eslintcache
+venv

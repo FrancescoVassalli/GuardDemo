@@ -1,0 +1,65 @@
+[tool.poetry]
+name = "llm-tutor"
+version = "0.1.0"
+description = "The FastAPI Backend for Jippity"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+aiohttp = "3.9.1"
+alembic = "1.12.0"
+attrs = "23.1.0"
+bcrypt = "^4.0.1"
+click = "8.1.7"
+comm = "0.1.4"
+debugpy = "~=1.8.0"
+emoji = "2.8.0"
+fastapi = "~=0.100.0"
+groq = "*"
+ipykernel = "6.25.2"
+ipython = "8.15.0"
+jupyter-client = "8.3.1"
+jupyter-core = "5.3.1"
+langchain = "~=0.3.2"
+langchain_community = "~=0.3.1"
+lxml = "4.9.3"
+markdown = "3.4.4"
+markdown-it-py = "3.0.0"
+matplotlib-inline = "~=0.1.6"
+openai = "~=1.51.2"
+pandas = "*"
+psycopg = {extras = ["binary", "pool"], version = "^3.1.12"}
+psycopg2 = "2.9.9"
+psycopg2-binary = "2.9.9"
+ptyprocess = "0.7.0"
+pulsar-client = "3.2.0"
+pure-eval = "0.2.2"
+pydantic = "~=2.7.4"
+pygments = "2.16.1"
+python-dateutil = "2.8.2"
+python-dotenv = "1.0.0"
+python-magic = "0.4.27"
+pyyaml = "6.0.1"
+regex = "2023.8.8"
+requests = "2.31.0"
+sqlalchemy = "~=2.0.14"
+sqlmodel = "~=0.0.22"
+starlette = "~=0.27.0"
+tiktoken = "~=0.7.0"
+uvicorn = "~=0.23.2"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+pyjwt = "1.7.1"
+sentry-sdk = {extras = ["fastapi"], version = "^1.32.0"}
+psycopg-binary = "^3.1.12"
+cloudinary = "^1.36.0"
+httpx = "^0.25.1"
+stripe = "^10.8.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
